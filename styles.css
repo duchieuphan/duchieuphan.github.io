@@ -1,0 +1,739 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #FDFCCE;
+}
+
+.main {
+	width: 900px;
+	height: 100%;
+	margin: 0px auto;
+    padding: 0px 0px 0px 0px;
+	position: relative;
+}
+.box {
+	background-color: black;
+	width: 100%;
+	height: 100px;
+	top: 0px; 
+	position: relative;
+	left: 0px;
+}
+
+.box nav {
+	text-align: left;
+}
+
+.box nav ul {
+	display:block;
+	list-style: none;
+
+}
+
+.box nav ul li {
+	display: inline-block;
+	padding: 0px 200px 0px 0px;
+}
+
+.box nav ul li a {
+	text-decoration: none;
+	color: white;
+	top: 45px;
+	position: absolute;
+}
+
+.box nav ul li a:hover {
+	color: yellow;
+}
+
+.main #box2 {
+	width: 90%;
+	height: 200px;
+	top: 150px;
+	position: relative;
+	padding: 0px;
+	left: 0px;
+}
+
+.heading h1 {
+	color: white;
+	position: absolute;
+	left: 0;
+	right: 80px;
+	margin-left: auto;
+	margin-right:auto;
+	top: 50px;
+	background-color: #CFBE27;
+	padding: 4px;
+	width: 400px;
+	text-align: center;
+}
+
+.heading.lap h1 {
+	color: white;
+	position: absolute;
+	
+	margin-left: auto;
+	margin-right:auto;
+	top: 50px;
+	background-color: #CFBE27;
+	padding: 4px;
+	width: 500px;
+	text-align: center;
+	font-family: 'Play', sans-serif;
+}
+
+.main #box2 #p1 {
+	color: #343838;
+	position: absolute;
+	width:55%;
+	top: 0cm;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 15px 0px 15px;
+	background-color: #EDE574;
+}
+
+
+.main #box2 #p2 {
+	color: #343838;
+	position: absolute;
+	width:55%;
+	top: 4cm;
+	left: 170px;
+	background-color: #EDE574;
+	padding: 0px 15px 0px 15px;
+}
+
+.main #box2 #subheading {
+	color: #343838;
+	position: absolute;
+	top: 6cm;
+	left: 350px;
+	padding: 10px;
+	border: 2px solid #343838;
+}
+
+.main #box2 #subheading {
+	color: #343838;
+	position: absolute;
+	top: 6cm;
+	left: 350px;
+	padding: 10px;
+	border: 2px solid #343838;
+}
+
+.main #box2 #subheading a {
+	text-decoration: none;
+	color: #343838;
+}
+
+.main #box2 #subheading a:hover {
+	text-decoration: none;
+	color: #CFBE27;
+}
+#about-me img {
+	width: 40%;
+	position: absolute;
+	height: 14cm;
+	top: 13cm;
+	left: 1cm;
+}
+
+#my-internship img {
+	width: 40%;
+	height: 14cm;
+	left: 11cm;
+	top: 13cm;
+	position: absolute;
+}
+
+#subheading2 {
+	position: absolute;
+	top: 25cm;
+	left: 4.5cm;
+}
+
+#subheading2 a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	padding: 5px;
+	background-color: white;
+	font-weight: bold;
+	border: 1px solid #343838;
+}
+
+#subheading2 a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #CFBE27;
+}
+
+#subheading3 {
+	position: absolute;
+	top: 25cm;
+	right: 6cm;
+}
+
+#subheading3 a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	padding: 5px;
+	background-color: white;
+	font-weight: bold;
+	border: 1px solid #343838;
+}
+
+#subheading3 a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #CFBE27;
+}
+footer .box {
+	position: relative;
+	top: 900px;
+	height: 100px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+footer .box.lap {
+	position: relative;
+	top: 1200px;
+	height: 100px;
+	margin: 0px auto;
+	padding: 0px;
+}
+footer .box .main #cre1 {
+	color: white;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+
+
+footer .box .main #cre2 {
+	color: white;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+}
+#profilepic {
+	position: absolute;
+	top: 5cm;
+}
+
+
+#para1 {
+	position: absolute;
+	width: 40%;
+	left: 10cm;
+	top: 7cm;
+	background-color: #EDE574;
+	padding: 0px 15px 0px 15px;
+}
+
+#para2 {
+	position: absolute;
+	width: 40%;
+	left: 10cm;
+	top: 11.2cm;
+	background-color: #EDE574;
+	padding: 0px 15px 0px 15px;
+}
+
+#para2 p a {
+	text-decoration: none;
+	color: #F27435;
+}
+
+#para3 {
+	position: absolute;
+	width: 40%;
+	left: 10cm;
+	top: 15.5cm;
+	background-color: #EDE574;
+	padding: 0px 15px 0px 15px;
+}
+
+#para3 p a {
+	text-decoration: none;
+	color: #F27435;
+}
+
+.about {
+	position: absolute;
+	left:12.5cm;
+	top: 3cm;
+}
+
+.about h1 {
+	width: 180px;
+}
+
+.internhead h1 {
+	width: 475px;
+	position: absolute;
+	left: 1cm;
+}
+
+.main #p1 {
+	position: absolute;
+	width: 70%;
+	top: 4cm;
+	left: 3cm;
+	background-color: #EDE574;
+	padding: 0px 15px 0px 15px;
+}
+
+.main #p1 p a {
+	text-decoration: none;
+	color: #F27435;
+}
+
+.main #certi img {
+	position: absolute;
+	width: 400px;
+	height:600px;
+	top: 22cm;
+	left: 7cm;
+}
+
+footer .ex {
+	position: absolute;
+	top: 1500px;
+}
+
+
+
+#facebook img {
+	width:3%;
+	position: absolute;
+	left: 0px;
+	right:80px;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 30px;
+}
+
+
+#instagram img {
+	width: 3%;
+	position: absolute;
+	left: 0px;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 30px;
+}
+
+
+#linkedin img {
+	width: 3%;
+	position: absolute;
+	display: block;
+	left: 80px;
+	right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 32px;
+}
+footer .last {
+	position: absolute;
+	bottom: 1000px;
+}
+
+p {
+	font-family: 'Caudex', serif;t-family: 'Spectral', serif;
+}
+
+.heading.lap {
+	top: 20px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+
+#hp img {
+	position:absolute;
+	width: 48%;
+	top: 5cm;
+}
+
+#asus img {
+	position: absolute;
+	width: 48%;
+	top: 5cm;
+	left: 13cm;
+}
+
+#acer img {
+	position: absolute;
+	width: 48%;
+	top: 12cm;
+}
+
+#lenovo img {
+	position: absolute;
+	width: 48%;
+	top: 12cm;
+	left: 13cm;
+}
+
+#dell img {
+	position: absolute;
+	width: 48%;
+	height: 280px;
+	top: 19cm;
+}
+
+#hpreview h2 {
+	
+}
+#hpreview a{
+	position: absolute;
+	top: 9cm;
+	left: 4.2cm;
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: 'Play', sans-serif;
+}
+
+#hpreview a:hover {
+	color: white;
+	background-color: #CFBE27;
+}
+#asusreview a{
+	position: absolute;
+	top: 9cm;
+	color: black;
+	left: 17.2cm;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: 'Play', sans-serif;
+}
+
+#asusreview a:hover {
+	color: white;
+	background-color: #CFBE27;
+}
+#acerreview a {
+	position: absolute;
+	top: 16cm;
+	left: 3.8cm; 
+	color: black;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: 'Play', sans-serif;
+}
+
+#acerreview a:hover {
+	color: white;
+	background-color: #CFBE27;
+}
+
+#lenovoreview a {
+	position: absolute;
+	top: 16cm;
+	left: 16.8cm;
+	color: black;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: 'Play', sans-serif;
+}
+
+#lenovoreview a:hover {
+	color: white;
+	background-color: #CFBE27;
+}
+
+#dellreview a {
+	position: absolute;
+	top: 24cm;
+	left: 3.9cm;
+	color: black;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: 'Play', sans-serif;
+}
+
+#dellreview a:hover {
+	color: white;
+	background-color: #CFBE27;
+}
+
+#hpheading h1 {
+	position: relative;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50px;
+	font-family: 'Play', sans-serif;
+	padding:10px;
+	background-color: #547980;
+	color: white;
+	text-align: center;
+}
+
+
+#hplist1 {
+	position: relative;
+	width: 400px;
+	top: 100px;
+}
+
+#hpsubheading1 {
+	font-size: 30px;
+	font-family: 'Caudex', serif;t-family: 'Spectral', serif;
+}
+#hplist1 ul {
+	list-style: none;
+}
+
+#hplist1 ul li {
+	padding: 10px;
+}
+#hplist1 ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: 'Caudex', serif;t-family: 'Spectral', serif;
+}
+
+#hplist1 ul li a:hover {
+	color: #547980;
+}
+
+
+#hplist2 {
+	position: relative;
+	width: 400px;
+	top: 150px;
+}
+
+#hpsubheading2 {
+	font-size: 30px;
+	font-family: 'Caudex', serif;t-family: 'Spectral', serif;
+}
+#hplist2 ul {
+	list-style: none;
+}
+
+#hplist2 ul li {
+	padding: 10px;
+}
+#hplist2 ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: 'Caudex', serif;t-family: 'Spectral', serif;
+}
+
+#hplist2 ul li a:hover {
+	color: #547980;
+}
+
+#hplist3 {
+	position: relative;
+	width: 600px;
+	top: 0px;
+	float: left;
+}
+
+#hpsubheading3 {
+	font-size: 30px;
+	font-family: 'Caudex', serif;t-family: 'Spectral', serif;
+}
+#hplist3 ul {
+	list-style: none;
+}
+
+#hplist3 ul li {
+	padding: 10px;
+}
+#hplist3 ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: 'Caudex', serif;t-family: 'Spectral', serif;
+}
+
+#hplist3 ul li a:hover {
+	color: #547980;
+}
+
+#hplist4 {
+	position: relative;
+	width: 400px;
+	top: -230px;
+	float: right;
+}
+
+#hpsubheading4 {
+	font-size: 30px;
+	font-family: 'Caudex', serif;t-family: 'Spectral', serif;
+}
+#hplist4 ul {
+	list-style: none;
+}
+
+#hplist4 ul li {
+	padding: 10px;
+}
+#hplist4 ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: 'Caudex', serif;t-family: 'Spectral', serif;
+}
+
+#hplist4 ul li a:hover {
+	color: #547980;
+}
+
+#hplist5 {
+	position: relative;
+	width: 400px;
+	top: -180px;
+	left: 400px;
+	float: right;
+}
+
+#hpsubheading5 {
+	font-size: 30px;
+	font-family: 'Caudex', serif;t-family: 'Spectral', serif;
+}
+#hplist5 ul {
+	list-style: none;
+}
+
+#hplist5 ul li {
+	padding: 10px;
+}
+#hplist5 ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: 'Caudex', serif;t-family: 'Spectral', serif;
+}
+
+#hplist5 ul li a:hover {
+	color: #547980;
+}
+
+#hpmini1 {
+	width: 500px;
+	margin-left: auto;
+	position: relative;
+	top: 100px;
+}
+
+#hpmini1 img {
+	width: 500px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#spechp1 {
+	width:300px;
+	margin-right: auto;
+	position: relative;
+	bottom: 285px;
+}
+
+#revhp1 {
+	width: 475px;
+	left: 400px;
+	top: 600px;
+	position: absolute;
+	background-color: #EDE574;
+	padding: 0px 15px 0px 15px;
+}
+
+#spechp2 {
+	width:300px;
+	margin-right: auto;
+	position: relative;
+	bottom: 285px;
+}
+
+#hpmini2 {
+	width: 500px;
+	margin-left: auto;
+	position: relative;
+	top: 100px;
+}
+
+#hpmini2 img {
+	width: 500px;
+}
+
+
+#spechp3 {
+	width:300px;
+	margin-right: auto;
+	position: relative;
+	bottom: 285px;
+}
+
+#hpmini3 {
+	width: 500px;
+	margin-left: auto;
+	position: relative;
+	top: 100px;
+}
+
+#hpmini3 img {
+	width: 500px;
+}
+
+#revhp3 {
+	width: 475px;
+	left: 400px;
+	top: 600px;
+	position: absolute;
+	background-color: #EDE574;
+	padding: 0px 15px 0px 15px;
+}

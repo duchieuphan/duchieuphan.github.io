@@ -1,0 +1,9 @@
+# Turn Rewrite Engine On
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+RewriteRule ^home$ index.html
+RewriteRule ^about-me$ About%20Me.html
+RewriteRule ^my-experience$ my%20experience.html
+RewriteRule ^contact-me$ contact%20me.html
